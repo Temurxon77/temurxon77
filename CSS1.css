@@ -1,0 +1,143 @@
+body {
+font-family: Arial, Verdana, sans-serif; /* Рубленый шрифт */
+ font-size: 0.9em; /* Размер шрифта */
+ color:#000000;
+ background:#A52A2A  /* Цвет текста */
+}
+h3 { 
+	font-size: 20pt;
+ /* Цвет текста */
+ border-style: : 2px dashed coral; /* Рамка вокруг заголовка */
+ color: #FF4500; /* Цвет текста */
+ padding: 10px; /* Поля вокруг текста */
+}
+h2 {
+ color: #556b2f; 
+ margin: 2; 
+ }
+ h1 {
+ color:#FF4500; 
+ margin: 2; 
+ }
+p {
+text-align: justify;  
+padding-left: 10px; 
+padding-bottom: 10px; 
+color:#FA8072;
+font-weight:bold;
+font-size:14pt;
+}
+ul {
+    list-style-type:;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: black;
+}
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15;
+    overflow: hidden;
+    background-color:#8B0000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: none;
+    text-align: center;
+    padding: 9px 12
+    px;
+    text-decoration:underline;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+p {border-style: groove;
+    font-style: oblique;
+}
+h4 {border-style: : 2px dashed coral; /* Рамка вокруг заголовка */
+ color: #FF4500; /* Цвет текста */
+ padding: 10px;}
+
+ .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+p.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+p.About{
+	font-size: 14pt;
+	font-color:mediumaquamarine;
+}
+body.Action
+{
+	background: url(iron-man-3-international-poster.jpg);
+}
+body.Predator
+{
+	background: url(Space.jpg);
+}
+body.Comedy
+{
+	background: url(AceVentura.jpg);
+}
+body.About
+{
+	background: url(Assassins.jpg);
+}
+body.index
+{
+	background: url(Index.jpg);
+}
