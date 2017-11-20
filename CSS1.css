@@ -1,4 +1,4 @@
-body {
+﻿body {
 font-family: Arial, Verdana, sans-serif; /* Рубленый шрифт */
  font-size: 0.9em; /* Размер шрифта */
  color:#000000;
@@ -123,21 +123,21 @@ p.About{
 }
 body.Action
 {
-	background: url(iron-man-3-international-poster.jpg);
+	background: url(Pictures/iron-man-3-international-poster.jpg);
 }
 body.Predator
 {
-	background: url(Space.jpg);
+	background: url(Pictures/Space.jpg);
 }
 body.Comedy
 {
-	background: url(AceVentura.jpg);
+	background: url(Pictures/AceVentura.jpg);
 }
 body.About
 {
-	background: url(Assassins.jpg);
+	background: url(Pictures/Assassins.jpg);
 }
 body.index
 {
-	background: url(Index.jpg);
+	background: url(Pictures/Index.jpg);
 }
